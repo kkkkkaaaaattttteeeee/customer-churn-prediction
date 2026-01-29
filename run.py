@@ -91,7 +91,7 @@ def test_data_module():
         # Добавляем src в путь
         sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
         
-        from data import preprocessing
+        from src.data import preprocessing
         
         print("✅ Модуль preprocessing загружен")
         
